@@ -8,6 +8,10 @@ public class PlayerData
         {
             PlayerPrefs.SetInt("PL", level);
         }
+        else
+        {
+            PlayerPrefs.SetInt("PL", 1);
+        }
     }
     public int GetPlayerLevel() 
     {
